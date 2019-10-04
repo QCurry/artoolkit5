@@ -111,7 +111,7 @@ then
     CPUS=`/usr/bin/nproc`
     OS='Windows'
     NDK_BUILD_SCRIPT_FILE_EXT=".cmd"
-elif [ "$OS" = "MINGW64_NT-10.0" ]
+elif [ "$OS" = "MINGW64_NT-10.0-17763" ]
 then
     # git-bash on Windows.
     CPUS=`/usr/bin/nproc`
